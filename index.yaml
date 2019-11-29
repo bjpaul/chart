@@ -3,7 +3,7 @@ entries:
   frontend:
   - apiVersion: v1
     appVersion: advance
-    created: "2019-11-25T00:32:19.916483+05:30"
+    created: "2019-11-29T15:22:33.512602+05:30"
     description: The Helm chart for frontend deployment and service
     digest: c068cba00145584bebf066e703d6dba89c919e4b8824bd68fddd292ecf531f0c
     keywords:
@@ -22,7 +22,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: advance
-    created: "2019-11-25T00:32:19.915949+05:30"
+    created: "2019-11-29T15:22:33.512056+05:30"
     description: The Helm chart for frontend deployment and service
     digest: 2db316a6de83b0aaea433d43e50cd55a00deb69a41d847c5d0832766aba7f39a
     keywords:
@@ -42,7 +42,7 @@ entries:
   ingress:
   - apiVersion: v1
     appVersion: ingress
-    created: "2019-11-25T00:32:19.917142+05:30"
+    created: "2019-11-29T15:22:33.513259+05:30"
     description: The Helm chart for ingress deployment and secrets
     digest: 1122dd65f8596d09bb14806b499ecd7f69a9aaac3a28f97d74ecd467aa672687
     keywords:
@@ -60,7 +60,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: ingress
-    created: "2019-11-25T00:32:19.916806+05:30"
+    created: "2019-11-29T15:22:33.512949+05:30"
     description: The Helm chart for ingress deployment and secrets
     digest: 31ca318b953ab7aaad99d1d81c1d890b57f1f56aa14d702ccba91a524efa59ea
     keywords:
@@ -76,4 +76,24 @@ entries:
     urls:
     - https://bjpaul.github.io/chart/ingress-0.1.0.tgz
     version: 0.1.0
-generated: "2019-11-25T00:32:19.91539+05:30"
+  reader:
+  - apiVersion: v1
+    appVersion: advance
+    created: "2019-11-29T15:22:33.514741+05:30"
+    description: The Helm chart for reader deployment and service
+    digest: 5194b5c0a9c985179f9b31de90960b6b296d88363c2eb0377f551d742f015df6
+    keywords:
+    - reader
+    - react
+    - ui
+    kubeVersion: 1.16.3
+    maintainers:
+    - email: work.bijoypaul@gmail.com
+      name: Bijoy Paul
+    name: reader
+    sources:
+    - https://github.com/bjapul/chart/k8s/beginner/reader
+    urls:
+    - https://bjpaul.github.io/chart/reader-0.1.1.tgz
+    version: 0.1.1
+generated: "2019-11-29T15:22:33.511473+05:30"
